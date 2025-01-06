@@ -1,0 +1,24 @@
+---
+type: Person
+related_to:
+  - "[[soc2-type-1-audit]]"
+  - "[[soc2-type-2-observation]]"
+  - "[[engineering-meeting-2026-04-08]]"
+_organized: true
+---
+
+# Patrice Ndour
+
+Audit lead at Ashcombe Assurance, the CPA firm that performed our SOC 2 Type I examination and is running the Type II observation.
+
+## How We Work Together
+
+Patrice is clear about what counts as evidence and does not bend on it. The best example is the code review question in 2026-04: [[hamish-pettigrew]] argued that pair-programmed commits should count as reviewed, and Patrice's position, which he put in writing and repeated by video at [[engineering-meeting-2026-04-08]], was that only a recorded approval on the pull request is evidence an auditor can test. The team kept the rule.
+
+He is also practical. At kickoff ([[soc2-kickoff-with-ashcombe-2026-02-10]]) he advised us to leave the Privacy and Processing Integrity criteria out of a first report, and to choose an as-of date that gave us time to close readiness gaps. During fieldwork ([[soc2-fieldwork-2026-08-03]]) he sent evidence requests in batches of ten with due dates, which made the two weeks manageable.
+
+## Current Threads
+
+- Type II window 2026-09-01 to 2027-02-28; sampling expected in 2027-03.
+- Agreeing the Type II fee and sampling dates by 2026-12-15.
+- Any change to control wording during the window goes through him first.

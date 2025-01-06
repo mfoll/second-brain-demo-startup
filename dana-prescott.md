@@ -1,0 +1,25 @@
+---
+type: Person
+belongs_to: "[[support-the-company]]"
+related_to:
+  - "[[meridale-clinic-group]]"
+  - "[[meridale-security-questionnaire]]"
+  - "[[answer-a-security-questionnaire]]"
+_organized: true
+---
+
+# Dana Prescott
+
+Enterprise account executive at Quaylane since 2025-04. Dana closed the Meridale Clinic Group contract on 2026-01-12, our largest account: 42 clinics, three years, $186,000 a year ([[meridale-clinic-group]]).
+
+## How We Work Together
+
+Dana brings me security questionnaires and contract clauses that touch engineering. The rule we agreed after the Meridale questionnaire: she never answers a security question with "yes" before engineering has confirmed it, and I answer within five business days. The answer library in [[answer-a-security-questionnaire]] exists largely because of her pipeline: she had 4 enterprise prospects asking for questionnaires in 2026-Q3.
+
+She negotiated the three Meridale conditions (SSO by 2026-07-01, a dedicated database, a SOC 2 Type I by 2026-09-30) with me on the phone, which is why all three were dates we believed we could hit.
+
+## Current Threads
+
+- Two mid-size clinic groups in late-stage evaluation; both asked for the SOC 2 report under NDA in 2026-09.
+- Wants a standard security one-pager for prospects ([[can-we-answer-security-questionnaires-without-engineering-time]]).
+- Works with [[rania-saleh]] at Meridale on any contract amendment.

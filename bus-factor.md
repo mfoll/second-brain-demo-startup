@@ -1,0 +1,26 @@
+---
+type: Concept
+belongs_to: "[[lead-engineering-team]]"
+related_to:
+  - "[[what-should-the-scheduling-engine-bus-factor-be]]"
+  - "[[team-health]]"
+_organized: true
+---
+
+# Bus Factor
+
+The smallest number of people who would have to become unavailable before a piece of work stalls because nobody else knows how to change it. A bus factor of one or two on something central is a team risk long before it is an investor question.
+
+## At Quaylane
+
+- Scheduling engine: two, Teodora and me, until the 2026-09 walkthrough and pairing rotation ([[what-should-the-scheduling-engine-bus-factor-be]]). Raised in diligence on [[technical-diligence-call-2026-08-19]].
+- `quaylane-infra` and the database: Kwabena and, since 2026-07, Bram. Part of Kwabena's case in [[kwabena-platform-hire-memo]].
+- Release train: was one (me) until [[release-train-handover-2026-07-14]]; now Lucia, with me as backup.
+
+## How I measure it
+
+Not by who attended a walkthrough, but by who has merged and reviewed a non-trivial change in that area alone in the last six months. The GitHub history answers that in ten minutes.
+
+## Caveat
+
+Raising the bus factor costs the expert's time, and it is usually the same expert everybody else needs. Plan it as work with a ticket, not as goodwill.

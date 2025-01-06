@@ -1,0 +1,29 @@
+---
+type: Person
+belongs_to: "[[support-the-company]]"
+related_to:
+  - "[[soc2-control-matrix]]"
+  - "[[soc2-exceptions-remediation-plan]]"
+  - "[[vendor-risk-register]]"
+_organized: true
+---
+
+# Colette Fairbanks
+
+Fractional operations and finance lead, two days a week since 2025-11. Colette runs HR administration, payroll, vendor contracts and the company's books, and for SOC 2 she owns the people and vendor controls.
+
+## Role in SOC 2
+
+In the [[soc2-control-matrix]] Colette owns 14 rows: onboarding (background check confirmation, policy acknowledgement), offboarding (access removal checklist, device return), security awareness training, vendor review and the [[vendor-risk-register]]. I own the engineering rows. The second Type I exception, a leaver's laptop returned without a wipe record, sat in her area; she drafted the fix within a week ([[soc2-exceptions-remediation-plan]]): the recycler issues a wipe certificate per serial number and she files it in the HR system before closing the leaver ticket.
+
+## How We Work Together
+
+- Monthly evidence check during the Type II window, first Monday of the month, 30 minutes.
+- She prefers checklists to prose. The offboarding checklist in the HR system is hers; engineering steps in it are mine.
+- She is precise about what the HR system may hold and keeps anything personal out of the shared evidence folder.
+
+## Current Threads
+
+- [[soc2-type-2-observation]] monthly checks.
+- Audit and vendor lines of [[engineering-budget-2027]].
+- Vendor reviews for two new tools proposed for 2027.
