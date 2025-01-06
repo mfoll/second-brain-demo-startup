@@ -1,0 +1,15 @@
+name: Open Questions
+icon: hand
+color: gray
+sort: "modified:desc"
+filters:
+  all:
+    - field: type
+      op: equals
+      value: Question
+    - field: status
+      op: equals
+      value: Open
+    - field: _archived
+      op: not_equals
+      value: true

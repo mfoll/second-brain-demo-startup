@@ -1,0 +1,4 @@
+interface:
+  display_name: "Process Ready Ingestion Inbox"
+  short_description: "Process captures explicitly marked ready."
+  default_prompt: "Use $process-ready-ingestion-inbox in the selected vault, following its AGENTS.md and Procedure."

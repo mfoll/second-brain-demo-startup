@@ -1,0 +1,15 @@
+name: Vault
+icon: brain
+color: yellow
+sort: modified:desc
+listPropertiesDisplay:
+- type
+- status
+filters:
+  all:
+  - field: surface_for
+    op: contains
+    value: "[[vault]]"
+  - field: _archived
+    op: not_equals
+    value: true

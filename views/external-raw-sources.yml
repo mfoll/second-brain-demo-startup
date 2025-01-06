@@ -1,0 +1,14 @@
+name: External Raw Sources
+icon: folder-open
+color: blue
+sort: "modified:desc"
+filters:
+  all:
+    - field: type
+      op: equals
+      value: Source
+    - field: root_key
+      op: is_not_empty
+    - field: _archived
+      op: not_equals
+      value: true
