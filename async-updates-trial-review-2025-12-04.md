@@ -1,0 +1,27 @@
+---
+type: Event
+date: 2025-12-04
+belongs_to: "[[lead-engineering-team]]"
+related_to:
+  - "[[written-async-updates]]"
+  - "[[retro-2025-10-16]]"
+_organized: true
+---
+
+# Async Updates Trial Review 2025-12-04
+
+Retro item reviewing the six-week trial of written updates that replaced the daily standup.
+
+## Data
+
+- Updates posted on 91% of working days per engineer over the six weeks; most misses were on days off that nobody had marked.
+- Tuesday and Thursday syncs ran 26 minutes on average; two were cancelled for lack of agenda.
+- Quick poll, five engineers (Nadia had left on 2025-10-31): four keep, one neutral, nobody wanted the daily standup back.
+
+## Decision
+
+Kept, with two changes: updates may be skipped on focus days if you say so the day before, and the Thursday sync starts with a five-minute "anything stuck for more than a day" round. Written up in [[written-async-updates]] and [[team-working-agreements]].
+
+## Open point
+
+I worried we would lose the casual contact. We added a 30-minute optional coffee call on Fridays. Attendance has been three to five people since. Whether that is enough is tracked through [[team-health-survey-2026-06]].
