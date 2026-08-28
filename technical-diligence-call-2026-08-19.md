@@ -1,0 +1,36 @@
+---
+type: Event
+date: 2026-08-19
+belongs_to: "[[seed-extension-diligence]]"
+related_to:
+  - "[[arun-velayudhan]]"
+  - "[[copperwell-diligence-request-list]]"
+  - "[[what-should-the-scheduling-engine-bus-factor-be]]"
+_organized: true
+---
+
+# Technical Diligence Call 2026-08-19
+
+A 90-minute video call between me and [[arun-velayudhan]] of Copperwell Capital, the technical diligence for the $2.5M seed extension. [[renata-castellano]] joined for the first 15 minutes. Arun had read the data room architecture notes and our written answers to his [[copperwell-diligence-request-list]].
+
+## Questions and Answers
+
+**Tenant isolation after the reversal.** Arun asked why we reversed the per-tenant database decision and whether the shared database is isolated enough. I explained the [[architecture-review-2026-06-11]]: 48 tenants moved, schema migrations taking 2 h 40 min across databases, +$3,100 a month on RDS and the 2026-03-17 outage caused by a migration batch. Dedicated databases now exist for enterprise contracts (Meridale since 2026-08-21); everyone else is in the shared database under [[row-level-security]], with policies on 38 of 47 tenant-scoped tables at that date. He asked for evidence, and I sent the summary of the [[bracken-hollow-pen-test-report-2026]]: no cross-tenant access found.
+
+**The March outage.** What happened, what changed, would it happen again. I walked through [[reminder-outage-2026-03-17]] (4,212 reminders delayed or lost, 61 clinics) and the 9 actions from [[postmortem-review-2026-03-24]], all closed by 2026-05-29: PgBouncer, migration throttle, queue-age alert, on-call redesign. He was more interested in the on-call redesign than in PgBouncer.
+
+**SOC 2 timeline.** Type I fieldwork had just finished; I told him the report was due by end of August and that I expected two exceptions. Ashcombe's draft was due within ten days ([[soc2-type-1-audit]]). He asked when a Type II would follow: 2027-04.
+
+**Bus factor on the scheduling engine.** The question I was least ready for. The engine that resolves rooms, staff rosters and appointment constraints is known well by two people, [[teodora-vasilescu]] and me. He asked what happens if both are unavailable for a month. Honest answer: slow, risky changes. ([[bus-factor]], [[what-should-the-scheduling-engine-bus-factor-be]])
+
+**Cloud cost per clinic.** $14 a month per active clinic in July 2026, against an average contract value per clinic well above that ([[cloud-cost-per-clinic]]). He asked how dedicated databases change it: each enterprise database adds a fixed cost that the contract price covers.
+
+## Follow-ups Agreed
+
+- A recorded walkthrough of the scheduling engine by Teodora (to record in early September).
+- A pairing rotation on the engine: one engineer pairs with Teodora or me for two weeks at a time (to start in mid-September).
+- Arun to receive a status on the rotation before close.
+
+## Reflection
+
+I spent most of my preparation on the reversal ([[explaining-the-tenant-reversal-to-investors]]) and it was the easiest part of the call. The bus factor was the real finding, and it was something I already knew and had not acted on. Investors were the forcing function.
