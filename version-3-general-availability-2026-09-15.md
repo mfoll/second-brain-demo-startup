@@ -1,0 +1,29 @@
+---
+type: Event
+date: 2026-09-15
+belongs_to: "[[version-3-release]]"
+related_to:
+  - "[[version-3-release-notes]]"
+  - "[[lucia-ferreyra]]"
+_organized: true
+---
+
+# Version 3 General Availability 2026-09-15
+
+Quaylane 3.0 went GA to all clinic accounts on the regular release train, run by Lucia Ferreyra. Twelve weeks later than the date set in January.
+
+## What shipped
+
+- [[waitlist-autofill]], off by default, one switch per account.
+- [[multi-location-calendars]], on for every account with more than one site.
+- [[enterprise-sso]] had been live for Meridale since 2026-06-30 and became available to every enterprise plan.
+
+## How it went
+
+- Deploy at 07:30, flags flipped at 08:00 in three batches of about 90 accounts, 30 minutes apart.
+- Support tickets on the day: 38, against 22 on a typical Tuesday. Most were "where did my site filter go" from single-site accounts that saw a new empty control. Mai hid the control for single-site accounts in 3.0.1 on 2026-09-17.
+- No incident. Reminder queue age stayed under one minute.
+
+## Communications
+
+Imani's team emailed all accounts at 08:00 with the [[version-3-release-notes]]. Felix posted the launch note. I sent a thank-you to the team and named the two engineers who had spent the spring on tenant work and were not on any feature list.
