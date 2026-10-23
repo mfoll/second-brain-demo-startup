@@ -8,7 +8,7 @@ surface_for:
 
 # Arneberg Engineering Brain
 
-A demo Second Brain: about 600 linked Markdown notes holding the working memory of the fictional co-founder and engineering lead of a small software start-up. Clone it, open the folder, and explore what a vault looks like after two years of daily use: projects, decisions, incidents, meetings, people, reading, open questions, and the links between them.
+A demo Second Brain: about 530 linked Markdown notes holding the working memory of the fictional co-founder and engineering lead of a small software start-up. Clone it, open the folder, and explore what a vault looks like after two years of daily use: projects, decisions, incidents, meetings, people, reading, open questions, and the links between them.
 
 ![Arneberg Engineering Brain in Brain Graph, colored by the Project or Responsibility each note rolls up to](assets/arneberg-engineering-brain-graph.png)
 
