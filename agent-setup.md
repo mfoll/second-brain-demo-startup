@@ -95,8 +95,6 @@ Disable `attachments/` or reserve it for small, intentional Git-tracked vault as
 
 [Vault Automations](vault-automations.md) documents optional jobs. Begin manually; configured jobs use their own vault's working directory, privacy rules and approved model. Read-only jobs never edit or checkpoint; write-capable jobs need narrow scope and separate push authority.
 
-[Review Multi-Vault Consistency](procedures/review-multi-vault-consistency.md) belongs only in an explicitly designated routing/control vault. Ordinary deployments retire it with the checklist in [Deploy Vault From Template](deploy-vault-from-template.md) and may keep the Procedure as archived provenance. This template does not authorize access to another vault's private content.
-
 ## Review and backup
 
 Follow [Git Checkpoint Vault Changes](procedures/git-checkpoint-vault-changes.md): preserve unrelated edits, review and stage only the authorized scope, and distinguish a local commit from permission to push. Never force-push without explicit approval. Review content before it enters Git, including filenames and metadata; keep the template itself neutral and content-free.

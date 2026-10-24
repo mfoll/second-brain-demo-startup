@@ -5,6 +5,7 @@ belongs_to: "[[vault]]"
 related_to:
   - "[[vault-automations]]"
 _organized: true
+_archived: true
 ---
 
 # Review Multi-Vault Consistency

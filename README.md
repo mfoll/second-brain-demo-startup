@@ -27,11 +27,11 @@ The vault was deployed from the [Second Brain template](https://github.com/mfoll
 | Memory | About 180 Sources, 50 Events, 35 Questions, 30 Concepts, 15 Opinions, 14 Recaps, 40 people. |
 | Real material | About 75 Sources are real public material: Wikipedia articles, open-access software engineering papers and tool documentation, cited with title, URL and identifiers and summarized in our own words. Their "Why It Matters" sections describe how the fictional company uses them. |
 | Operations | `AGENTS.md`, Type notes, Procedures, Skills and ADRs from the template, unchanged except for the deployment steps. |
-| History | Git history from January 2025 to October 2026, one commit per month of captures. |
+| History | Git history from January 2025 to October 2026, one commit for each month that had captures. |
 
 ## Open it
 
-- **Any Markdown editor.** Clone the repository and open the folder. Start from [[vault]].
+- **Any Markdown editor.** Clone the repository and open the folder; notes sit flat at the root by design. Start from [vault](vault.md).
 - **[Tolaria](https://tolaria.md/).** Open the folder as a vault for typed sidebars, relationship panels and saved views.
 - **[Brain Graph](https://github.com/mfoll/brain-graph).** See the whole vault as a map colored by project:
 
@@ -39,7 +39,7 @@ The vault was deployed from the [Second Brain template](https://github.com/mfoll
   npx github:mfoll/brain-graph path/to/second-brain-demo-startup
   ```
 
-- **A coding agent.** Run Claude Code, Codex or Gemini CLI in the folder. They read [[AGENTS]] (through `CLAUDE.md` and `GEMINI.md` where needed) and follow the vault's Procedures.
+- **A coding agent.** Run Claude Code, Codex or Gemini CLI in the folder. They read [AGENTS](AGENTS.md) (through `CLAUDE.md` and `GEMINI.md` where needed) and follow the vault's Procedures.
 
 ## Try this
 
@@ -47,20 +47,20 @@ Each question has a known answer in the vault, so you can check what an agent fi
 
 | Ask | Where the answer lives |
 | --- | --- |
-| Why isn't every clinic on its own database? | A review on 2025-11-18 chose a database per tenant; a review on 2026-06-11 kept that only for enterprise contracts. See [[tenant-isolation-migration]] and [[architecture-review-2026-06-11]]. |
-| What caused the March reminder outage, and what did we change afterwards? | A migration batch exhausted database connections; nine actions followed. See [[reminder-outage-postmortem]] and [[reminder-outage-2026-03-17]]. |
-| How do emergency fixes get reviewed under the SOC 2 change control? | A break-glass path decided on 2026-04-08, with one engineer still disagreeing. See [[engineering-meeting-2026-04-08]] and [[ship-an-emergency-change]]. |
-| Are we hiring a platform engineer next year? | Still open. See [[should-we-hire-a-platform-engineer-or-keep-everyone-on-call]]. |
-| Why did version 3 ship in September instead of June? | Release planning on 2026-06-02 moved the date. See [[version-3-release]] and [[release-planning-2026-06-02]]. |
-| What did investors ask about engineering in the seed extension diligence? | See [[seed-extension-diligence]] and [[technical-diligence-call-2026-08-19]]. |
-| What did we promise Meridale, and did we deliver? | Three contract conditions, all met. See [[meridale-clinic-group]] and [[soc2-type-1-report]]. |
+| Why isn't every clinic on its own database? | A review on 2025-11-18 chose a database per tenant; a review on 2026-06-11 kept that only for enterprise contracts. See [tenant-isolation-migration](tenant-isolation-migration.md) and [architecture-review-2026-06-11](architecture-review-2026-06-11.md). |
+| What caused the March reminder outage, and what did we change afterwards? | A migration batch exhausted database connections; nine actions followed. See [reminder-outage-postmortem](reminder-outage-postmortem.md) and [reminder-outage-2026-03-17](reminder-outage-2026-03-17.md). |
+| How do emergency fixes get reviewed under the SOC 2 change control? | A break-glass path decided on 2026-04-08, with one engineer still disagreeing. See [engineering-meeting-2026-04-08](engineering-meeting-2026-04-08.md) and [ship-an-emergency-change](ship-an-emergency-change.md). |
+| Are we hiring a platform engineer next year? | Still open. See [should-we-hire-a-platform-engineer-or-keep-everyone-on-call](should-we-hire-a-platform-engineer-or-keep-everyone-on-call.md). |
+| Why did version 3 ship in September instead of June? | Release planning on 2026-06-02 moved the date. See [version-3-release](version-3-release.md) and [release-planning-2026-06-02](release-planning-2026-06-02.md). |
+| What did investors ask about engineering in the seed extension diligence? | See [seed-extension-diligence](seed-extension-diligence.md) and [technical-diligence-call-2026-08-19](technical-diligence-call-2026-08-19.md). |
+| What did we promise Meridale, and did we deliver? | Three contract conditions, all met. See [meridale-clinic-group](meridale-clinic-group.md) and [soc2-type-1-report](soc2-type-1-report.md). |
 
 Workflows to try with an agent:
 
 - **Resume a project:** "Resume the Tenant Isolation Migration."
 - **Process the Inbox:** about eight raw captures from the last week of October 2026 have `_organized: false`; each has an obvious home.
 - **Ingest a source:** give any article on code review, incident response or multi-tenant databases and ask where it belongs.
-- **Lint the vault:** the audits should find one unresolved link and one homeless Concept, both left in on purpose, plus informational parentless external contacts.
+- **Lint the vault:** the audits should report one link to a missing note and one Concept that belongs to nothing, both left in on purpose. Informational lines, such as external contacts without a parent, are expected.
 
 ## Scope and privacy
 
@@ -68,7 +68,7 @@ The fictional engineering lead's work: the team and its practices, the product a
 
 ## Template updates
 
-The vault was deployed from the template on 2026-10-23. Later template improvements can be ported with [[upgrade-existing-vault-from-template|Upgrade an Existing Vault From the Template]], as a reviewed change: an agent proposes each port, and a person approves it. Never run it unattended. A vault in use is expected to differ from the template on purpose, in its ADRs, Procedures, Skills and instructions.
+The vault was deployed from the template on 2026-10-23. Later template improvements can be brought in with [Upgrade an Existing Vault From the Template](upgrade-existing-vault-from-template.md), as a reviewed change: an agent proposes each change, and a person approves it. Never run it unattended. A vault in use is expected to differ from the template on purpose, in its ADRs, Procedures, Skills and instructions.
 
 ## How it was made
 
@@ -76,7 +76,7 @@ An AI agent drafted the world specification (the company, people, projects, time
 
 ## Storage and backup
 
-Git history in this repository. A demo that edits notes can be reset with `git checkout .` and `git clean -fd`.
+The notes are plain files, and their history is this Git repository. To undo edits made while trying the demo, run `git checkout .`; `git clean -n` lists any new files, which `git clean -f` would delete.
 
 ## More example vaults
 

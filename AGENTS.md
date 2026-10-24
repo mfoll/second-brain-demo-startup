@@ -5,7 +5,7 @@ surface_for:
   - "[[vault]]"
 ---
 
-# AGENTS.md — Second Brain Vault
+# AGENTS.md: Second Brain Vault
 
 These are the daily instructions for agents using this Brain; the vault's scope and privacy boundary are recorded once in [[README]]. Markdown, YAML frontmatter and wikilinks hold durable knowledge; saved views and optional Git history support retrieval and recovery. Start from [[vault]] when no Project entry is specified.
 
@@ -86,8 +86,6 @@ When a task matches an existing Procedure, read and follow it before acting. Use
 | Decide whether work needs a folder, repository, agent project, or cloud Working area | [[procedures/route-project-work-and-artifacts|Route Project Work And Artifacts]] |
 | Expose retained Skills to an agent runtime | [[procedures/configure-agent-skill-discovery|Configure Agent Skill Discovery]] |
 | Checkpoint authorized edits | [[procedures/git-checkpoint-vault-changes|Git Checkpoint Vault Changes]] |
-
-The template includes [[procedures/review-multi-vault-consistency|Review Multi-Vault Consistency]] only for routing/control vaults. Ordinary deployments retire it following the checklist in [[deploy-vault-from-template]] and must not schedule it.
 
 ## Git and safety
 
