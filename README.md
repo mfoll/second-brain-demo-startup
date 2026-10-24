@@ -12,6 +12,8 @@ A demo Second Brain: about 530 linked Markdown notes holding the working memory 
 
 ![Arneberg Engineering Brain in Brain Graph, colored by the Project or Responsibility each note rolls up to](assets/arneberg-engineering-brain-graph.png)
 
+**[Explore this vault in the live demo](https://mfoll.github.io/brain-graph-demo/?vault=arneberg-engineering-brain)**: its map in Brain Graph, in your browser, with nothing to install.
+
 > [!warning]
 > Everything about the company is fictional: Quaylane, every person, the customers, investors, auditor, vendors, incidents, numbers and decisions. Any resemblance to real people or organizations is accidental. Only the Sources marked as encyclopedia articles, scientific papers or documentation are real.
 
