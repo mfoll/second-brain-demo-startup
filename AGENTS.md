@@ -77,6 +77,7 @@ When a task matches an existing Procedure, read and follow it before acting. Use
 | Create or normalize a note | Matching root Type note |
 | Create or edit a saved view | [[tolaria-saved-views|Tolaria Saved Views]]; for a Project surface, also [[procedures/maintain-project-human-view|Maintain Project Human View]] |
 | Move or rename notes | Update affected links in the same change and run [[procedures/lint-vault|Lint Vault]] before and after |
+| Start something new (area, project, subject or first item) | [[procedures/start-a-focus|Start a Focus]] |
 | Refresh project state or actions | [[procedures/update-project-summary|Update Project Summary]] and [[procedures/update-project-next-actions|Update Project Next Actions]] |
 | Maintain a project workbench | [[procedures/maintain-project-human-view|Maintain Project Human View]] |
 | Process Inbox or ingest a source | [[procedures/process-inbox|Process Inbox]] or [[procedures/ingest-source|Ingest Source]] |
