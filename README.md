@@ -17,6 +17,12 @@ A demo Second Brain: about 530 linked Markdown notes holding the working memory 
 > [!warning]
 > Everything about the company is fictional: Quaylane, every person, the customers, investors, auditor, vendors, incidents, numbers and decisions. Any resemblance to real people or organizations is accidental. Only the Sources marked as encyclopedia articles, scientific papers or documentation are real.
 
+## Everyday use
+
+Try “Save this useful idea or reference under the relevant project”, “Where did we leave this project?” or “Update what we decided and what comes next”. Inspect what was saved and find it again from the Project. The [template’s practical walkthrough](https://github.com/mfoll/second-brain-template#build-your-first-useful-project) explains how to start your own vault; experiment on a private copy if you want to keep real notes.
+
+Inbox processing is optional deferred capture. Process Inbox handles the requested scope; Ready Ingestion selects only `ingest_ready: true` before following the same processing. A supplied external source can go directly through Ingest Source. Neither an Inbox, Tolaria nor an integration is required. Lint checks structure; health review judges usefulness. The deliberate findings described in this demo remain examples, not defects to repair automatically.
+
 ## What it shows
 
 The vault was deployed from the [Second Brain template](https://github.com/mfoll/second-brain-template), which adds operating rules, workflows and a decision record to the [Portent](https://github.com/refactoringhq/portent) note model. Everything is plain files: Markdown notes with YAML frontmatter, typed relationships (`belongs_to`, `related_to`, `has`) and wikilinks. No app, database or index is required.
